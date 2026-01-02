@@ -24,7 +24,7 @@ def jokenpo(escolha_usuario):
                 Resultado: Empate!!!
         '''
     elif(escolha_usuario == 'pedra' and escolha_computador=='tesoura') or (escolha_usuario == 'papel' and escolha_computador == 'pedra') or (escolha_usuario == 'tesoura' and escolha_computador == 'papel'):
-         mensagem=f'''
+        mensagem=f'''
                 Você: {escolha_usuario.upper()}
                 EU: {escolha_computador.upper()}
 
@@ -37,9 +37,9 @@ def jokenpo(escolha_usuario):
 
                 Resultado: Você Perdeu!!!
 
-                
+
         '''
-    resultado.config(text=mensagem)    
+    resultado.config(text=mensagem)   
 
 
 
